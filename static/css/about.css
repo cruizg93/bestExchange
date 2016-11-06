@@ -1,0 +1,41 @@
+.hero-box{
+	padding:200px 0;
+}
+
+.content-box .container{
+	text-align: center;
+}
+
+.aboutPicture{
+	margin-top: -170px;
+	max-width: 300px;
+	border:10px solid darkblue;
+	border-radius: 50%;
+}
+
+.imgLabel{
+	color: darkblue;
+}
+
+.row{
+	margin-top: 60px;
+}
+
+.row img{
+	max-width: 200px;
+}
+
+.pictureSide{
+	margin-top: -150px;
+}
+
+.afterPictureSide{
+	text-align: justify;
+	font-size: 22px;
+	line-height: 38px;
+}
+
+.footerLogos img{
+	max-width: 100%;
+	min-width: 100%;
+}

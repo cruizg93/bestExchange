@@ -1,0 +1,113 @@
+.main-header{padding: 0px;}
+.hero-box .container{
+	width: 100%;
+	padding: 0 50px;
+}
+.hero-box{
+	padding:170px 0 20px 0px;
+}
+
+.hero-box .hero-text h1{
+	-webkit-text-stroke: 0.5px #ffffff;
+}
+
+.bestCalc{
+	background: rgba(55,50,118,0.6);
+	padding:10px;
+	border-radius: 30px;
+}
+
+.bestCalc div *{
+	margin-bottom: 20px !important;
+}
+
+.bestCalc div h2{
+	color:#FFFFFF;
+
+}
+
+#bestCompra, #bestVenta{
+}
+
+#calcCompra, #calcVenta{
+	text-align: left;
+}
+
+
+.box{
+	border-radius: 15px 15px 0 0;
+	width: 100%;
+    display: flex;
+    flex-direction: column-reverse;
+    background: rgba(5,5,5,0.3);
+    border: solid 1px rgba(160, 160, 160, 0.3);
+    margin: 0 0 2em 0;
+    vertical-align: baseline;
+}
+
+.box a{
+	color:#373276;
+}
+
+
+.box header{
+	min-height: 4em;
+	position: relative;
+	flex-grow: 1;
+	text-align: center;
+}
+
+.box header h2{
+	margin-bottom: 0px;
+	text-align: center;
+
+}
+
+.box a{
+	text-transform: uppercase;
+}
+
+.box img{
+	max-height: 100px;
+	min-height: 100px;
+	min-width: 100%;
+	max-width: 100%;
+	border-radius: 15px 15px 0px 0px;
+	border-bottom: 1px solid silver;
+}
+
+.box::before, .box::after{
+	box-sizing: border-box;
+} 
+
+#bodycore{
+	background: #D6D4D4;
+}
+
+#bodycore section{
+	padding: 30px;
+}
+
+.locPrices{
+	font-size: 1.5em;
+	width: 100%;
+	text-align: center;
+}
+
+.locPrices>thead>tr{
+	background: #373276;
+	color: #FFFFFF;
+}
+
+.locPrices>tbody>tr{
+	background: #FFFFFF;
+	color:#373276;
+}
+
+.locPrices>tbody>tr td:first-child{
+	border-radius: 0 0 0 14px;
+}
+
+.locPrices>tbody>tr td:last-child{
+	/*border-radius: 0 0  14px 0;*/
+}

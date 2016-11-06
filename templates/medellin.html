@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>BestExchange | Currency Exchange Divisa - Medellin</title>
+		<meta name="description" content="Find the best place to exchange your foreing money">
+		<meta name="author" content="Cristian Ruiz (cruizg93)">
+		<meta name="keywords" content="Medellin dolar exchange, cambio de dolar medellin, dolar medellin" />
+		<script type="text/javascript" src="{{url_for('static',filename='js/jquery-3.1.1.min.js')}}"></script>
+		<script type="text/javascript" src="{{url_for('static',filename='js/numeric.js')}}"></script>
+		<script type="text/javascript" src="{{url_for('static',filename='js/index.js')}}"></script>
+		<script type="text/javascript" src="{{url_for('static',filename='js/medellin.js')}}"></script>
+		<script type="text/javascript" src="{{url_for('static',filename='js/spin.min.js')}}"></script>
+		<script type="text/javascript" src="{{url_for('static',filename='js/functions.js')}}"></script>
+		<script type="text/javascript" src="{{url_for('static',filename='js/formatCurrency/jquery.formatCurrency-1.4.0.js')}}"></script>
+		<script type="text/javascript" src="{{url_for('static',filename='js/formatCurrency/i18n/jquery.formatCurrency.es-CO.js')}}"></script>
+		<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700|Raleway:400,700" rel="stylesheet" />
+		<link href="{{url_for('static',filename='css/screen.css')}}" rel="stylesheet" />
+		<link href="{{url_for('static',filename='css/city.css')}}" rel="stylesheet" />
+	</head>
+	<body class="home" id="page">
+      <!-- Header -->
+      <header class="main-header">
+         {% include 'header.html'%}
+      </header>
+
+      <!-- Main Content -->
+      <div class="content-box">
+         <!-- Hero Section -->
+         <section class="section section-hero">
+            <div class="hero-box">
+               <div class="container">
+					<div class="spiner" id="spiner"></div>
+					<div class="hero-text align-center">
+						 <h1 id="trm">TRM</h1>
+						<div class="row bestCalc">
+							<div class="col-md-5 col-sm-12 col-xs-24" style="text-align: right;">
+								<h2>MEJOR COMPRA:</h2>
+								<h2>MEJOR VENTA:</h2>
+							</div>
+							<div class="col-md-11" style="text-align: left;">
+								<h2 id="bestCompra"></h2>
+								<h2 id="bestVenta"></h2>
+							</div>
+							<div class="col-md-3">
+								<input class="form-input check-value exchangeFormat" id="txtCalcCompra" type="text" name="compra" placeholder="Calcule aqui" maxlength="4">
+								<input class="form-input check-value exchangeFormat" id="txtCalcVenta" type="text" name="venta" placeholder="Calcule aqui" maxlength="4">
+							</div>
+							<div class="col-md-5">
+								<h2  id="calcCompra" class="exchangeFormat">COP $0</h2>
+								<h2 id="calcVenta" class="exchangeFormat">COP $0</h2>
+							</div>
+						</div>	 
+					</div>
+					
+               </div>
+            </div>
+           	<article>
+				<div class="" id="bodycore">
+				</div>		
+			</article>
+
+         </section>
+      </div>
+   </body>
+</html>

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+   <head>
+   	<meta charset="utf-8">
+   	<title>BestExchange | Acerca de</title>
+   	<meta name="description" content="Find the best place to exchange your foreing money">
+   	<meta name="author" content="Cristian Ruiz (cruizg93)">
+   	<meta name="keywords" content="dollar exchange, cambiar dolar, euro exchange, cambiar euro, lugar para cambiar dolar, cambio de divisas" />
+   	<script type="text/javascript" src="{{url_for('static',filename='js/jquery-3.1.1.min.js')}}"></script>
+   	<script type="text/javascript" src="{{url_for('static',filename='js/index.js')}}"></script>
+   	<script type="text/javascript" src="{{url_for('static',filename='js/functions.js')}}"></script>
+      <script type="text/javascript" src="{{url_for('static',filename='js/about.js')}}"></script>
+   	<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700|Raleway:400,700" rel="stylesheet" />
+   	<link href="{{url_for('static',filename='css/screen.css')}}" rel="stylesheet" />
+      <link href="{{url_for('static',filename='css/about.css')}}" rel="stylesheet" />
+   </head>
+	<body class="home" id="page">
+      <!-- Header -->
+      <header class="main-header">
+         {% include 'header.html'%}
+      </header>
+
+      <!-- Main Content -->
+      <div class="content-box">
+         <!-- Hero Section -->
+         <section class="section section-hero">
+            <div class="hero-box">
+               <div class="container">
+                  <div class="hero-text align-center" style="color: #FFFFFF;">
+                     <h1>ACERCA DE MI</h1>
+                  </div>
+               </div>
+            </div>
+
+            <!-- Statistics Box -->
+            <div class="container">
+               <img class="aboutPicture" id="Me" src="{{url_for('static',filename='images/yo.jpg')}}">
+               <div class="row">
+                  <div class="col-md-8 pictureSide" id="colombia">
+                     <img src="{{url_for('static',filename='images/colombia.png')}}" alt="bandera de Colombia" title="bandera de colombia">
+                  </div>
+                  <div class="col-md-8" id="programming">
+                     <img src="{{url_for('static',filename='images/code.png')}}" alt="icono de programacion" title="icono de programacion">
+                  </div>
+                  <div class="col-md-8 pictureSide" id="comedy">
+                     <img src="{{url_for('static',filename='images/comedy.png')}}" alt="icono de comedia" title="icono de comedia">
+                  </div>
+               </div>
+               <div class="row">
+                  <p class="afterPictureSide">Me llamo Cristian y soy un &lt;/programador&gt; , nacido y criado en Medellin-Colombia pero ahora vivo en Tampa, Florida. Empece a programar y maquetar sitios web de colegio a los 14 años. Gane una maraton de programacion nivel novato mientras estaba en la universidad y consegui mi titulo de Profesional en programacion de sistemas de informacion; trabaje 1 año en una pequeña empresa que me ponia como outsorcing en grandes compa&ntilde;ias tales como la multinacional Intergrupo, Bancolombia y Seguros Suramericana.
+
+                  Este sitio esta desarrollado con Python3; aunque tenga mas experiencia y mi especialidad sea JAVA, soy curioso y me gusta aprender algo nuevo cada dia. Tambien me gusta dise&ntilde;ar bases de datos.
+
+                  Status actual: Freelancer
+                  </p>
+               </div> 
+               <div class="row footerLogos">
+                  <img src="{{url_for('static',filename='images/Programming-Language-logos.png')}}">
+               </div>  
+            </div>
+         </section>
+      </div>
+   </body>
+
+</html>

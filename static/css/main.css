@@ -1,0 +1,215 @@
+body{
+		background: lightgray;	
+	}
+	nav {
+		background-color: transparent;
+		border: 1px solid #dedede;
+		border-radius: 40px;
+		box-shadow: 0 2px 2px -1px rgba(0, 0, 0, 0.055);
+		color: #add43c;
+		display: block;
+		margin: 1em auto;
+		overflow: hidden;
+		width: 90%; 
+	}
+
+	nav ul{
+		width: 49%;
+		display: inline-block;
+		padding: 0;
+	}
+
+	nav ul li {
+		display: inline-block;
+		list-style-type: none;
+		
+		-webkit-transition: all 0.2s;
+		-moz-transition: all 0.2s;
+		-ms-transition: all 0.2s;
+		-o-transition: all 0.2s;
+		transition: all 0.2s; 
+	}
+	
+	nav > ul > li > a {
+		font-size: 1.3em;
+		color: #00008B;
+		display: block;
+		line-height: 2em;
+		padding: 0 24px;
+		text-decoration: none;
+		font-weight: bold;
+	}
+
+	nav > ul.socialNetworks > li > a {
+		line-height: 0 !important;
+		padding: 0 6px;
+	}
+
+	nav > ul > li > img {
+		color: #aaa;
+		display: block;
+		line-height: 2em;
+		padding: 0 24px;
+		text-decoration: none;
+	}
+
+   nav > ul > li:hover {
+      /*background-color: rgb( 40, 44, 47 );*/
+    }
+
+    nav > ul > li:hover > a {
+      color:#fff;
+    }
+    .socialNetworks{
+    	text-align: right;
+    }
+
+    .socialNetworks img{
+    	width: 25px;
+    }
+
+    .menu{
+    	text-align: left;
+    }
+
+    .container{
+
+    	/*background-image: url("../images/banner3.jpg");*/
+    	background: gray;
+    	height: 320px;
+    	background-size: cover;
+    	padding-top: 1em;	
+    	position: relative;
+    	display: block;
+    }
+
+    .formbutton{
+		background-color:#add43c;
+		color:#ffffff;
+		font-size: 1.35em;
+		text-decoration: none;
+		border-radius: 10px;
+		border:0;
+		cursor: pointer;
+		display: inline-block;
+		font-weight: bold;
+		height: 2.18em;
+		/*line-height: 2.95em;*/
+		padding: 0 2em;
+		text-align: center;
+		white-space: nowrap;
+		font-family: "Raleway",Helvetica, sans-serif;
+	}
+
+	.formfield{
+		background-color: #ffffff;
+		color: #444;
+		margin-bottom: 0;
+		margin-top: 0;
+		height: 2.75em;
+		border-radius: 4px;
+		border: none;
+		outline: 0;
+		padding: 0 1em;
+		text-decoration: none;
+		width: 20em;
+		font-family: "Raleway",Helvetica, sans-serif;
+		font-size: 13pt;
+		font-weight: 400;
+		line-height: 1.65em;
+		box-sizing: border-box;
+	}
+
+	article{
+		text-align: center;
+		width: 90%;
+		margin: 0 auto;
+	}
+
+	.spiner{
+		margin: 0 auto;
+		width: 250px;
+		height: 250px;
+		display: initial;
+	}
+
+	h2{
+		margin: 0 auto;
+		font-size: 2em;
+		font-weight: bold;
+		color: darkblue;
+	}
+
+	.bestCalc{
+		width: 94%;
+		padding: 10px 2.5%;
+		border: 1px solid white;
+		border-radius: 20px;
+		font-size: 19pt;
+		font-weight: bold;
+		color: darkblue;
+		text-align: left;
+	}
+
+	.bestCalc table{width: 100%;}
+
+	.calcResult{
+		width: 30%;
+	}
+
+	.calcField{
+		width: 60%;
+		display: inline-block;
+	}
+	table .best{
+		width: 20%;
+	}
+
+	.bestLabel{
+		color:white;
+		width: 20%;
+	}
+
+	.bestValue{
+		width: 50%;
+	}
+	.bestValue>p{
+		color: red;
+	}
+
+	.calculator{
+		width: 30%
+	}
+
+	#calcCompra, #calcVenta {
+		width: 38%;
+		display: inline-block;
+	}
+
+	.loc{
+		width: 33.3%;
+		display: inline-block;
+	}
+
+	.box{
+		margin: 5%;
+		border: 1px dashed black;
+		border-radius: 40px;
+		height: 213px;
+		background: rgba(161,164,168,0.7);
+	}
+
+	.locLogo{
+		display: block;
+		margin: 0 auto;
+		width: 80%;
+		height: 40%;
+	}
+
+	.locPrice{
+		width: 80%;
+		margin:1% auto;
+	}
+
+	.containerLocs{
+	}
